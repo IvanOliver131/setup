@@ -9,6 +9,7 @@ const prisma = new PrismaClient();
 // app.register(cors, {
 //   origin: ["http://localhost: 3000"],
 // });
+//  **************************
 app.register(cors);
 
 app.get("/", async () => {
