@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import { Habit } from "./components/Habit";
 
+import "./styles/global.css";
+
 // fragments
 function App() {
   return (
